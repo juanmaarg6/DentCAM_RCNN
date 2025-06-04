@@ -1,13 +1,4 @@
-# 🦷 DentCAM-RCNN - TFG Code Repository
-
-## 📑 Tabla de Contenidos
-1. 🎓 Introducción  
-2. 🧠 Sobre DentCAM-RCNN  
-3. 🖼️ Arquitectura del Modelo  
-4. 🔍 Grad-CAM y Explicabilidad  
-5. 🧪 Comparativa Visual de Resultados  
-6. 🗂️ Estructura del Repositorio  
-7. ⚙️ Instalación y Ejecución  
+# 🦷 DentCAM-RCNN - Código del Trabajo de Fin de Grado
 
 ---
 
