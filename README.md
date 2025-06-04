@@ -52,20 +52,16 @@ A continuación se muestran ejemplos comparativos entre el modelo base y DentCAM
 
 ## 6. 🗂️ Estructura del Repositorio
 
+```text
 DentCAM_RCNN/
-├── dataset/ # Datos de entrada y ground truth
-├── img/ # Imágenes utilizadas en el README
-│ ├── fig_1.png
-│ ├── fig_2.png
-│ ├── fig_3.png
-│ └── fig_4.png
-├── mrcnn/ # Código fuente del modelo Mask R-CNN
-├── dentcam_rcnn.ipynb # Notebook principal con todo el flujo de trabajo
-├── requirements.txt # Dependencias del proyecto
+├── dataset/               # Conjunto de datos utilizados
+├── img/                   # Imágenes utilizadas en el README
+├── mrcnn/                 # Código fuente del modelo Mask R-CNN
+├── dentcam_rcnn.ipynb     # Notebook principal con todo el flujo de trabajo
+├── requirements.txt       # Dependencias del proyecto
 ├── LICENSE
 └── README.md
-
-
+```
 ---
 
 ## 7. ⚙️ Instalación y Ejecución
@@ -87,6 +83,6 @@ pip install -r requirements.txt
 
 ### 3️⃣ Ejecuta el notebook:
 
-Abre dentcam_rcnn.ipynb con Jupyter Notebook o JupyterLab para reproducir el entrenamiento, la segmentación y la generación de mapas Grad-CAM.
+Abre `dentcam_rcnn.ipynb` con Jupyter Notebook o JupyterLab para reproducir el entrenamiento, la segmentación y la generación de mapas Grad-CAM.
 
 🎯 ¡Gracias por visitar el repositorio! Cualquier duda, comentario o sugerencia es bienvenida.
