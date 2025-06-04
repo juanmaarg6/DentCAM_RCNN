@@ -2,7 +2,7 @@
 
 ## 1. 🎓 Introducción
 
-Este repositorio contiene el código y resultados de la parte informática de mi Trabajo de Fin de Grado (TFG), centrado en la segmentación y explicabilidad de piezas dentales en ortopantomografías mediante el uso de redes neuronales profundas. El modelo utilizado se basa en **Mask R-CNN** e incorpora un módulo de explicabilidad mediante **Grad-CAM**.
+Este repositorio contiene el código y resultados de la parte informática de mi Trabajo de Fin de Grado (TFG), centrado en la segmentación y explicabilidad de piezas dentales en radiografías panorámicas mediante el uso de redes neuronales profundas. El modelo utilizado se basa en **Mask R-CNN** e incorpora un módulo de explicabilidad mediante **Grad-CAM**.
 
 ## 2. 🧠 Sobre DentCAM-RCNN
 
