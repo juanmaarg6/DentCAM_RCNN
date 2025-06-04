@@ -4,13 +4,9 @@
 
 Este repositorio contiene el código y resultados de la parte informática de mi Trabajo de Fin de Grado (TFG), centrado en la segmentación y explicabilidad de piezas dentales en ortopantomografías mediante el uso de redes neuronales profundas. El modelo utilizado se basa en **Mask R-CNN** e incorpora un módulo de explicabilidad mediante **Grad-CAM**.
 
----
-
 ## 2. 🧠 Sobre DentCAM-RCNN
 
 **DentCAM-RCNN** es una versión adaptada de Mask R-CNN entrenada sobre radiografías panorámicas dentales. Su objetivo es segmentar individualmente cada pieza dental y, a través de Grad-CAM, proporcionar mapas de atención visual que ayuden a comprender las decisiones del modelo.
-
----
 
 ## 3. 🖼️ Arquitectura del Modelo
 
@@ -20,8 +16,6 @@ Este repositorio contiene el código y resultados de la parte informática de mi
 
 La arquitectura está basada en una red **ResNet101 con FPN**, seguida de una red de propuestas de región (RPN), alineamiento RoI, y ramas para clasificación, regresión de cajas y segmentación. Grad-CAM se aplica sobre los logits antes del softmax de la clasificación por instancia.
 
----
-
 ## 4. 🔍 Grad-CAM y Explicabilidad
 
 <div align="center">
@@ -29,8 +23,6 @@ La arquitectura está basada en una red **ResNet101 con FPN**, seguida de una re
 </div>
 
 Se ha implementado Grad-CAM sobre la capa `roi_align_classifier` para generar mapas de calor específicos por instancia. Esto permite identificar qué zonas han influido más en la predicción de cada diente.
-
----
 
 ## 5. 🧪 Comparativa Visual de Resultados
 
@@ -48,8 +40,6 @@ A continuación se muestran ejemplos comparativos entre el modelo base y DentCAM
   <img src="img/fig_4.png" alt="Resultados visuales 2" width="600"/>
 </div>
 
----
-
 ## 6. 🗂️ Estructura del Repositorio
 
 ```text
@@ -62,7 +52,6 @@ DentCAM_RCNN/
 ├── LICENSE
 └── README.md
 ```
----
 
 ## 7. ⚙️ Instalación y Ejecución
 
